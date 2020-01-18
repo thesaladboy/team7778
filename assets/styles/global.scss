@@ -1,0 +1,9 @@
+---
+# Compile all scss into single file
+---
+
+$site-url: "{{ site.url }}";
+
+/* Imports */
+@import "base";
+@import "home";
