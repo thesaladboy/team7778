@@ -3,6 +3,7 @@
 ---
 
 $site-url: "{{ site.url }}";
+$assets-url: "{{ site.assetsurl }}";
 
 /* Imports */
 @import "base";
