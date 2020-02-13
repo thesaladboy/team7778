@@ -9,4 +9,4 @@ image: IMG_5752.jpg
 thumbnail: IMG_5754-thumb.jpg
 ---
 
-2020 South High FRC Team - Completed PowerPort
+On our first week, the build team dedicated their time building a power port for practice. The PowerPort took three days to build with over 15 hours of build time. Members from the build team were familiar with the tools, and even taught the newcomers how to use the machinery. Our build team is always ready for a challenge and our next challenge will be building the Trench Run and Control Panel.
