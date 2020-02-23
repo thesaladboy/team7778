@@ -1,7 +1,17 @@
+.nav-brand-text {
+    font-size: 1.8rem;
+    line-height: 4rem;
+    font-family: 'Rock Salt', cursive;
+}
+
 .hero {
     background-image: url($assets-url+"/images/hero/team7778Hero.jpg");
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.post-card-img {
+    object-fit: cover;
 }

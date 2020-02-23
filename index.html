@@ -3,10 +3,6 @@ title: Team 7778 - Home
 layout: default
 ---
 
-<header class="my-3 text-center">
-     <h1>Team 7778</h1>
-</header>
-
 <main role="main">
     <div class="hero"></div>
     <div class="posts py-5 bg-light">
@@ -17,13 +13,13 @@ layout: default
                     
                     <div class="col-md-4">
                         <div class="card mb-4 shadow-sm">
-                            <img class="card-img-top" width="100%" height="225" preserveAspectRatio="xMidYMid slice" src="{{ site.assetsurl }}/posts/thumbnails/{{ post.thumbnail }}" alt="{{ post.title }}">
+                            <img class="card-img-top post-card-img" width="100%" height="225" preserveAspectRatio="xMidYMid slice" src="{{ site.assetsurl }}/posts/thumbnails/{{ post.thumbnail }}" alt="{{ post.title }}">
                             <div class="card-body">
                                 <h5 class="card-title">{{ post.title }}</h5> 
-                                <p class="card-text">{{ post.excerpt }}</p>
+                                {% comment %}<p class="card-text">{{ post.excerpt }}</p>{% endcomment %}
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <a href="{{ post.url }}" class="btn btn-outline-secondary">View</a>
                                     <small class="text-muted">{{ post.date | date_to_string }}</small>
+                                    <a href="{{ post.url }}" class="btn btn-outline-secondary">View</a>                                   
                                 </div>
                             </div>
                         </div>
