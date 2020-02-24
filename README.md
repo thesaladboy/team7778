@@ -5,7 +5,7 @@
 ### Post Guidelines
 * Thumbnails
     * Size: height 450 px
-    * Filesize: ~500 KB
+    * Filesize: ~ 500 KB
 
 * Images
     * Size: width less than 3840 px
